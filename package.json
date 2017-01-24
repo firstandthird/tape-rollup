@@ -1,0 +1,28 @@
+{
+  "name": "tape-rollup",
+  "version": "4.6.3",
+  "description": "Standalone tape for use with rollup",
+  "main": "tape.js",
+  "scripts": {
+    "build": "browserify node_modules/tape -o tape.js -s test && echo '\nexports default window.test;' >> tape.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/firstandthird/tape-rollup.git"
+  },
+  "keywords": [
+    "tape",
+    "rollup",
+    "es2015"
+  ],
+  "author": "Greg Allen <code@firstandthird.com> (http://firstandthird.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/firstandthird/tape-rollup/issues"
+  },
+  "homepage": "https://github.com/firstandthird/tape-rollup#readme",
+  "devDependencies": {
+    "browserify": "13.3.0",
+    "tape": "4.6.3"
+  }
+}
