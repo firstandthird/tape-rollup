@@ -7352,4 +7352,4 @@ function config (name) {
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}]},{},[58])(58)
 });
-exports default window.test;
+export default window.test;

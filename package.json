@@ -4,7 +4,7 @@
   "description": "Standalone tape for use with rollup",
   "main": "tape.js",
   "scripts": {
-    "build": "browserify node_modules/tape -o tape.js -s test && echo '\nexports default window.test;' >> tape.js"
+    "build": "browserify node_modules/tape -o tape.js -s test && echo '\nexport default window.test;' >> tape.js"
   },
   "repository": {
     "type": "git",
